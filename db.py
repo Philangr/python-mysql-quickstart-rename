@@ -2,13 +2,13 @@
 
 import mysql.connector
 
-def create_connection(host, user, password, database=None):
+def create_connection():
     try:
         mydb = mysql.connector.connect(
-            host=host,
-            user=user,
-            password=password,
-            database=database
+            host="localhost",
+            user="root",
+            password="password here",
+            database="things"
         )
         return mydb
     except mysql.connector.Error as err:
@@ -21,7 +21,7 @@ def create_connection(host, user, password, database=None):
         return None
 
 # TODO: Should we have a separate method for executing queries and queries that return results?
-def execute_query(mydb, query):
+def execute_query(query):
     if mydb:
       mycursor = mydb.cursor()
       try:

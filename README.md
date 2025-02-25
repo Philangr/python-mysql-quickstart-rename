@@ -13,7 +13,7 @@ Modify `main.py` to write your SQL queries and Python code.
 
 ## n00b guide
 
-Have no idea what you're doing? You're in the right place. Here, I'm going to walk you through the steps to get a basic python application working, including a connected mysql database. Think of mysql as the memories of your app, the python is the brain, processing those memories, among other thing.
+Have no idea what you're doing? You're in the right place. Here, I'm going to walk you through the steps to get a basic python application working, including a connected mysql database. Think of mysql as the memories of your app, the python is the brain, processing those memories, among other things.
 
 ### 1. Install MySQL (the database)
 

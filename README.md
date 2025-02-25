@@ -13,14 +13,16 @@ Modify `main.py` to write your SQL queries and Python code.
 
 ## n00b guide
 
-### 1. Install MySQL (your database)
+Have no idea what you're doing? You're in the right place. Here, I'm going to walk you through the steps to get a basic python application working, including a connected mysql database. Think of mysql as the memories of your app, the python is the brain, processing those memories, among other thing.
+
+### 1. Install MySQL (the database)
 
 Download and install MySQL Server from [dev.mysql.com](https://dev.mysql.com). 
 - Set a root password during installation.
 - Make sure to pick the community version.
 - Run mySQL to begin hosting a database on your local machine.
 
-### 2. Install python3 (your application)
+### 2. Install python3 (the application)
 
 Google it. Any version above 3.9 will do.
    

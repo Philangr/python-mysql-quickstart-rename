@@ -2,7 +2,16 @@
 
 This repository provides a simple sandbox environment for learning SQL and Python database interaction.
 
-## Setup
+## Usage
+
+Modify `main.py` to write your SQL queries and Python code.
+
+## Overview
+1. main.py: Entrypoint for the python app
+2. setup_db.sql: When executed, creates the database, based on the contents of the file. All DDL scripts should be in here.
+3. requirements.txt: Tells pip what python dependencies this app needs to run. This file should generally be created for you automatically
+
+## n00b guide
 
 ### 1. Install MySQL (your database)
 
@@ -33,7 +42,7 @@ In the same directory, run this in your bash terminal.
 
 This will install all pre-requisite python packages that are defined in your app requirements.txt file. To start, this should just be a library that lets you talk to mySQL from python. You may end up adding more pre-requisites to this list later on.
 
-### 6. Run the python script (it will not work)
+### 6. Run the python script
 
 `python3 main.py` 
 
@@ -43,7 +52,7 @@ If you did it right, it will say that the password is wrong.
 
 Go to db.py and slot in your password. DO NOT COMMIT THIS FILE TO GIT!!! You do not want to put your password into source control. There are many techniques for hiding your password from source control, but I'm not including that in this guide, so just don't commit changes to this file. You can add a gitignore rule if you want, google that.
 
-### 8. Run the python script again (it still won't work)
+### 8. Run the python script again
 
 `python3 main.py` 
 
@@ -61,13 +70,13 @@ This will connect you to a database called `mysql` which is created by default. 
 
 Once you have a connection set up, run a simple `SELECT 1;` query in your query console. If you receive a "1" response back, that means your connection is working! This query tells mysql "hey, say 1 to prove you're alive"
 
-### 11. Create your own database in mysql
+### 11. Create a database in mysql
 
 In your connected query console, run this command to create the empty database, "things": `CREATE DATABASE things;`
 
 Now you have a database!
 
-### 12. Run the python script again (it will work now!)
+### 12. Run the python script again
 
 `python3 main.py` 
 
@@ -79,16 +88,18 @@ Create a new connection to your things database, following the steps from #10, b
 
 Once you've got your new query console, head over to setup_db.sql in this repository, and run the entire script in your query console. This will create the things table, and populate it with a few values.
 
-### 14. What do I do now?
+### 14. Run the python script again
+
+This time it should work. You've created the database, set up the connection, created a table, and even populated it with some sample data. The final command in this python script just prints some data to your console, from the database. If you see that data, then you have finished successfully wiring up your python app to a functional database. You are ready to build on top of this framework and make something awesome!
+
+### 15. Zoom out and build your OWN database
 
 Congratulations, you now have a working mysql database alongside a python application. The possibilities are endless! What will you create?
 
-## Usage
+Take a moment. Zoom out and think about what you want to build. What is your thing going to do? What kind of information do you need in order to make it run? Begin by replacing the things database with something that makes more sense for your project. Give your database a good name. Think about what data it needs to store, and start creating tables by writing mysql DDL scripts. Make sure that you keep ALL of these scripts inside of the setup_db.sql file, or else you may forget how to rebuild your database! Commit your database changes to source control!
 
-Modify `main.py` to write your SQL queries and Python code.
+You should probably delete the things database at this point, no sense in keeping it around.
 
-## Overview
-1. main.py: Entrypoint for the python app
-2. setup_db.sql: When executed, creates the database, based on the contents of the file. All DDL scripts should be in here.
-3. requirements.txt: Tells pip what python dependencies this app needs to run. This file should generally be created for you automatically
+### 16. Build the application
 
+Data by itself is useless, we need to DO something with it. That's where python comes in. Check out the code that's written in main.py. By default, it's just some simple code that makes a database query to the things database, but it can do whatever you want. This file could execute a complex series of tasks when run, or even something as sophisticated as starting an entire web server!

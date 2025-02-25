@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS thing (
     name VARCHAR(255)
 );
 
-INSERT INTO thing (name) VALUES ('thing1'), ('thing2');
+INSERT INTO thing (name) VALUES ('OMG'), ('this is like totally data inside of a database!'), ('if you are reading this, it worked baby! you''re a full on software engineer now!');

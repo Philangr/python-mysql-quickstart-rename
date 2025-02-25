@@ -7,5 +7,5 @@ if db_connection:
 
     print(execute_query(db_connection, "SELECT * FROM thing;"))
     
-    mydb.close()
+    db_connection.close()
 

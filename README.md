@@ -90,6 +90,8 @@ Create a new connection to your things database, following the steps from #10, b
 
 Once you've got your new query console, head over to setup_db.sql in this repository, and run the entire script in your query console. This will create the things table, and populate it with a few values.
 
+Make sure you're **not** creating the table inside the `mysql` database. Remember, now that we created `things`, we're only going to use that one.
+
 ### 14. Run the python script again
 
 This time it should work. You've created the database, set up the connection, created a table, and even populated it with some sample data. The final command in this python script just prints some data to your console, from the database. If you see that data, then you have finished successfully wiring up your python app to a functional database. You are ready to build on top of this framework and make something awesome!

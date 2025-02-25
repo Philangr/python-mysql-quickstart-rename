@@ -1,12 +1,11 @@
 from db import create_connection, execute_query
 
-mydb = create_connection()
+db_connection = create_connection()
 
-if mydb:
+if db_connection:
     print("Successfully connected to the database!")
 
-    print(execute_query("SELECT * FROM thing;"))
+    print(execute_query(db_connection, "SELECT * FROM thing;"))
     
     mydb.close()
 
-# TODO: run the setup_db script to initialize the database.

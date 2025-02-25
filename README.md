@@ -98,7 +98,7 @@ Make sure you're **not** creating the table inside the `mysql` database. Remembe
 
 This time it should work. You've created the database, set up the connection, created a table, and even populated it with some sample data. The final command in this python script just prints some data to your console, from the database. If you see that data, then you have finished successfully wiring up your python app to a functional database. You are ready to build on top of this framework and make something awesome!
 
-### 15. Zoom out and build your OWN database
+### 15. Fork this repo and build your own app/database
 
 Congratulations, you now have a working mysql database alongside a python application. The possibilities are endless! What will you create?
 

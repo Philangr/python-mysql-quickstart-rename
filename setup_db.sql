@@ -1,6 +1,4 @@
 -- Create your tables and insert initial data here.
-USE things;
-
 CREATE TABLE IF NOT EXISTS thing (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255)

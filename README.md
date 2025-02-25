@@ -24,4 +24,4 @@ Modify `main.py` to write your SQL queries and Python code.
 ## Overview
 1. main.py: Entrypoint for the python app
 2. setup_db.sql: When executed, creates the database, based on the contents of the file. All DDL scripts should be in here.
-3. requirements.txt: Tells pip what python dependencies this app needs to run. This file should generally be created for you automatically.
+3. requirements.txt: Tells pip what python dependencies this app needs to run. This file should generally be created for you automatically

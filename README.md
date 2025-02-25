@@ -10,3 +10,13 @@ This repository provides a simple sandbox environment for learning SQL and Pytho
 
    ```sql
    CREATE DATABASE my_sandbox_db;
+
+3.  **Set up the Virtual Environment:** (Provide the commands for creating and activating the environment).
+
+4.  **Install Dependencies:** `pip install -r requirements.txt`
+
+5.  **Run the Python Script:** `python main.py`
+
+## Usage
+
+Modify `main.py` to write your SQL queries and Python code.

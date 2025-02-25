@@ -5,17 +5,9 @@ This repository provides a simple sandbox environment for learning SQL and Pytho
 ## Setup
 
 1. **Install MySQL:** Download and install MySQL Server from [dev.mysql.com](https://dev.mysql.com). Set a root password during installation. Make sure to pick the community version.
-
-2. **Create the Database:** Use the `mysql` client or a GUI tool (like MySQL Workbench) to create a database (e.g., `my_sandbox_db`). You can use the following SQL command:
-
-   ```sql
-   CREATE DATABASE my_sandbox_db;
-
-3.  **Set up the Virtual Environment:** (Provide the commands for creating and activating the environment).
-
-4.  **Install Dependencies:** `pip install -r requirements.txt`
-
-5.  **Run the Python Script:** `python main.py`
+2.  **Set up the Virtual Environment:** `python3 -m venv my_sandbox_env`
+3.  **Install Dependencies:** `pip install -r requirements.txt`
+4.  **Run the Python Script:** `python main.py`
 
 ## Usage
 

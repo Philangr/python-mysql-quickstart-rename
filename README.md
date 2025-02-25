@@ -18,7 +18,7 @@ Have no idea what you're doing? You're in the right place. Here, I'm going to wa
 ### 1. Install MySQL (the database)
 
 Download and install MySQL Server from [dev.mysql.com](https://dev.mysql.com). 
-- Set a root password during installation.
+- Set a root password during installation and remember it!
 - Make sure to pick the community version.
 - Run mySQL to begin hosting a database on your local machine.
 

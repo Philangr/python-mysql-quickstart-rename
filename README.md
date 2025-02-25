@@ -8,7 +8,7 @@ This repository provides a simple sandbox environment for learning SQL and Pytho
 2.  **Set up the Virtual Environment:** `python3 -m venv my_sandbox_env`
 3.  **Install Dependencies:** `pip install -r requirements.txt`
 4.  **Run the Python Script:** `python3 main.py` If you did it right, it will say "Database does not exist"
-5.  **Create the database::** `CREATE DATABASE things;`
+5.  **Create the database::** You will need to use a program for interacting with mySQL. Connect to the `mysql` database, using your root user/password. Once you're connected, create the database: `CREATE DATABASE things;`
 6.  **Run the python script again...**
 
 ## Usage

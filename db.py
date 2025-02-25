@@ -4,13 +4,13 @@ import mysql.connector
 
 def create_connection():
     try:
-        mydb = mysql.connector.connect(
+        db_connection = mysql.connector.connect(
             host="localhost",
             user="root",
             password="password here",
             database="things"
         )
-        return mydb
+        return db_connection
     except mysql.connector.Error as err:
         if err.errno == mysql.connector.errorcode.ER_ACCESS_DENIED_ERROR:
             print("Something is wrong with the user name or password")
@@ -21,15 +21,21 @@ def create_connection():
         return None
 
 # TODO: Should we have a separate method for executing queries and queries that return results?
-def execute_query(mydb, query):
-    if mydb:
-      mycursor = mydb.cursor()
+def execute_query(db_connection, query):
+    if db_connection:
+      mycursor = db_connection.cursor()
       try:
+          # do the thing that the query says
           mycursor.execute(query)
-          mydb.commit()
+
+          # commit it, making it take effect
+          db_connection.commit()
+
+          # did the query return data? Send to the caller!
           return mycursor.fetchall()
       except mysql.connector.Error as err:
           print(f"Query execution failed: {err}")
-          mydb.rollback()
+          # it didn't work, rollback the query
+          db_connection.rollback()
           return None
     return None

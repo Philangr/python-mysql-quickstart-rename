@@ -71,9 +71,15 @@ Now you have a database!
 
 `python3 main.py` 
 
-It should tell you that the connection was successful.
+It should tell you that the connection was successful, but that it couldn't find the `things.thing` table. You guessed it, it doesn't exist yet.
 
-### 13. What do I do now?
+### 13. Create the thing table, inside of the things database
+
+Create a new connection to your things database, following the steps from #10, but this time, use the `things` database instead of `mysql`
+
+Once you've got your new query console, head over to setup_db.sql in this repository, and run the entire script in your query console. This will create the things table, and populate it with a few values.
+
+### 14. What do I do now?
 
 Congratulations, you now have a working mysql database alongside a python application. The possibilities are endless! What will you create?
 

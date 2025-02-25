@@ -21,7 +21,7 @@ def create_connection():
         return None
 
 # TODO: Should we have a separate method for executing queries and queries that return results?
-def execute_query(query):
+def execute_query(mydb, query):
     if mydb:
       mycursor = mydb.cursor()
       try:

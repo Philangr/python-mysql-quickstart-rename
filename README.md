@@ -108,7 +108,7 @@ Take a moment. Zoom out and think about what you want to build. What is your thi
 
 You should probably delete the things database at this point, no sense in keeping it around.
 
-Data by itself is useless, we need to DO something with it. That's where python comes in. Check out the code that's written in main.py. By default, it's just some simple code that makes a database query to the things database, but it can do whatever you want. This file could execute a complex series of tasks when run, or even something as sophisticated as starting an entire web server!
+Data by itself is useless, we need to DO something with it. That's where python comes in. Check out the code that's written in `main.py`. By default, it's just some simple code that makes a database query to the `things` database, but it can do whatever you want. This file could execute a complex series of tasks when run, or even something as sophisticated as starting an entire web server!
 
 
 

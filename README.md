@@ -107,6 +107,8 @@ Data by itself is useless, we need to DO something with it. That's where python 
 
 ### 17. Closing thoughts and advice
 
+First, fork this repo so you can start building.
+
 Build your app in tiny pieces. Don't try and add a bunch of changes at once, chip away at something large by breaking it up into atomic tasks. You may want to eventutally spin up your python app into something amazing like a django backend or data science pipeline, but do that LATE in the process. Right now, it's going to be really simple to just run that same python script to run your application. For ease of use, stick with that approach until you REALLY need something better.
 
 HACK THE PLANET!!!!!!!!

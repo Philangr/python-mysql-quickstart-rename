@@ -102,19 +102,14 @@ This time it should work. You've created the database, set up the connection, cr
 
 Congratulations, you now have a working mysql database alongside a python application. The possibilities are endless! What will you create?
 
+Fork this repo into your own copy so you can start building in your own repo!
+
 Take a moment. Zoom out and think about what you want to build. What is your thing going to do? What kind of information do you need in order to make it run? Begin by replacing the things database with something that makes more sense for your project. Give your database a good name. Think about what data it needs to store, and start creating tables by writing mysql DDL scripts. Make sure that you keep ALL of these scripts inside of the setup_db.sql file, or else you may forget how to rebuild your database! Commit your database changes to source control!
 
 You should probably delete the things database at this point, no sense in keeping it around.
 
-### 16. Build the application
-
 Data by itself is useless, we need to DO something with it. That's where python comes in. Check out the code that's written in main.py. By default, it's just some simple code that makes a database query to the things database, but it can do whatever you want. This file could execute a complex series of tasks when run, or even something as sophisticated as starting an entire web server!
 
 
-### 17. Closing thoughts and advice
-
-First, fork this repo so you can start building.
-
-Build your app in tiny pieces. Don't try and add a bunch of changes at once, chip away at something large by breaking it up into atomic tasks. You may want to eventutally spin up your python app into something amazing like a django backend or data science pipeline, but do that LATE in the process. Right now, it's going to be really simple to just run that same python script to run your application. For ease of use, stick with that approach until you REALLY need something better.
 
 HACK THE PLANET!!!!!!!!

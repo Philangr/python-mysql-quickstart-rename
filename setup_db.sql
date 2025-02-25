@@ -1,6 +1,5 @@
 -- Create your tables and insert initial data here.
-
-CREATE DATABASE things;
+USE things;
 
 CREATE TABLE IF NOT EXISTS thing (
     id INT AUTO_INCREMENT PRIMARY KEY,

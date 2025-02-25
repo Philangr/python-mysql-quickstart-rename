@@ -4,7 +4,7 @@ This repository provides a simple sandbox environment for learning SQL and Pytho
 
 ## Setup
 
-1. **Install MySQL:** Download and install MySQL Server from [dev.mysql.com](dev.mysql.com). Set a root password during installation.
+1. **Install MySQL:** Download and install MySQL Server from [dev.mysql.com](https://dev.mysql.com). Set a root password during installation.
 
 2. **Create the Database:** Use the `mysql` client or a GUI tool (like MySQL Workbench) to create a database (e.g., `my_sandbox_db`). You can use the following SQL command:
 

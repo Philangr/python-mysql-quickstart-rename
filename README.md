@@ -103,3 +103,10 @@ You should probably delete the things database at this point, no sense in keepin
 ### 16. Build the application
 
 Data by itself is useless, we need to DO something with it. That's where python comes in. Check out the code that's written in main.py. By default, it's just some simple code that makes a database query to the things database, but it can do whatever you want. This file could execute a complex series of tasks when run, or even something as sophisticated as starting an entire web server!
+
+
+### 17. Closing thoughts and advice
+
+Build your app in tiny pieces. Don't try and add a bunch of changes at once, chip away at something large by breaking it up into atomic tasks. You may want to eventutally spin up your python app into something amazing like a django backend or data science pipeline, but do that LATE in the process. Right now, it's going to be really simple to just run that same python script to run your application. For ease of use, stick with that approach until you REALLY need something better.
+
+HACK THE PLANET!!!!!!!!

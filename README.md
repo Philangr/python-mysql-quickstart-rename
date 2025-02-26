@@ -5,6 +5,7 @@ This repository provides a simple sandbox environment for learning SQL and Pytho
 ## Usage
 
 Modify `main.py` to write your SQL queries and Python code.
+Modify and run `setup_db.sql` to generate your database.
 
 ## Overview
 1. main.py: Entrypoint for the python app

@@ -64,13 +64,13 @@ Go to db.py and slot in your password. DO NOT COMMIT THIS FILE TO GIT!!! You do 
 
 If you did it right, it will now say that it can't find the "things" database, because we haven't created it yet.
 
-### 9. Install a database manager app
+### 9. Install a database IDE
 
-My favorite is DBeaver on MacOS, but you can use anything that can connect to mysql, which should be almost every one.
+My favorite is DBeaver https://dbeaver.io/ , but you can use anything that can connect to mysql, which should be almost every one.
 
 This will be an app that lets YOU directly interact with your database. You can run SQL queries against your database, create new databases, tables, anything you want!
 
-### 10. Set up a connection with your database manager
+### 10. Set up a connection with your database IDE
 
 It's time to connect to your mysql database through the database manager. You'll want to click "create connection" somewhere in the app. Your host is `localhost`, database is `mysql` username is `root`, password is whatever you decided on step 1. Everything else should be left as default.
 

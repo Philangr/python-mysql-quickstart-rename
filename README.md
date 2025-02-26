@@ -36,6 +36,8 @@ Any version above 3.9 will do.
 
 **Recommended**: iTerm2 on Mac and Cmder on Windows
 
+cd (directory)
+
 ### 4. Set up the python Virtual Environment (lets you run an isolated version of python from the terminal)
 
 Open your bash terminal, and navigate to this repo's home directory. Run this command `python -m venv my_sandbox_env`

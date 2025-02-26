@@ -31,6 +31,8 @@ Download and install MySQL Server from [dev.mysql.com](https://dev.mysql.com).
 https://www.python.org/downloads/
 
 Any version above 3.9 will do.
+
+check "add python.exe to PATH"
    
 ### 3. Install a terminal app (for running Linux commands in bash)
 
@@ -45,6 +47,8 @@ git status and git pull to check
 Open your bash terminal, and navigate to this repo's home directory. Run this command `python -m venv my_sandbox_env`
 
 If you got no errors, you now have a python environment set up on your local machine. If bash does not recognize "python" your python installation did not work. Try rebooting your terminal before debugging.
+
+setx PATH "%PATH%;C:\Users\anton\AppData\Local\Programs\Python\Python313\Scripts" /M
 
 ### 5. Install python dependencies
 

@@ -38,6 +38,8 @@ Any version above 3.9 will do.
 
 cd (directory)
 
+git status and git pull to check
+
 ### 4. Set up the python Virtual Environment (lets you run an isolated version of python from the terminal)
 
 Open your bash terminal, and navigate to this repo's home directory. Run this command `python -m venv my_sandbox_env`

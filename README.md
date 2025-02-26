@@ -1,5 +1,7 @@
 # MySQL/Python Sandbox
 
+FORK THIS REPO!
+
 This repository provides a simple sandbox environment for learning SQL and Python database interaction.
 
 ## Usage

@@ -72,7 +72,7 @@ This will be an app that lets YOU directly interact with your database. You can 
 
 ### 10. Set up a connection with your database IDE
 
-It's time to connect to your mysql database through the database manager. You'll want to click "create connection" somewhere in the app. Your host is `localhost`, database is `mysql` username is `root`, password is whatever you decided on step 1. Everything else should be left as default.
+It's time to connect to your mysql database through the database IDE. You'll want to click "create connection" somewhere in the app. Your host is `localhost`, database is `mysql` username is `root`, password is whatever you decided on step 1. Everything else should be left as default.
 
 This will connect you to a database called `mysql` which is created by default. You should never use this database outside of generating this initial connection, it only exists for the purposes of this very moment. We'll want to create our own database in mysql, then never use the `mysql` database again.
 

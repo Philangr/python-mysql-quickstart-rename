@@ -66,7 +66,7 @@ If you did it right, it will say that the password is wrong.
 
 ### 7. Change the application password to your root password
 
-Go to db.py and slot in your password. DO NOT COMMIT THIS FILE TO GIT!!! You do not want to put your password into source control. There are many techniques for hiding your password from source control, but I'm not including that in this guide, so just don't commit changes to this file.
+Go to db.py, open it with a text editor, and slot in your password. DO NOT COMMIT THIS FILE TO GIT!!! You do not want to put your password into source control. There are many techniques for hiding your password from source control, but I'm not including that in this guide, so just don't commit changes to this file.
 
 ### 8. Run the python script again
 

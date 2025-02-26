@@ -26,7 +26,9 @@ Download and install MySQL Server from [dev.mysql.com](https://dev.mysql.com).
 
 ### 2. Install python3 (the application)
 
-Google it. Any version above 3.9 will do.
+https://www.python.org/downloads/
+
+Any version above 3.9 will do.
    
 ### 3. Install a terminal app (for running Linux commands in bash)
 

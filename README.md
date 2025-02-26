@@ -38,7 +38,7 @@ Any version above 3.9 will do.
 
 ### 4. Set up the python Virtual Environment (lets you run an isolated version of python from the terminal)
 
-Open your bash terminal, and navigate to this repo's home directory. Run this command `python3 -m venv my_sandbox_env`
+Open your bash terminal, and navigate to this repo's home directory. Run this command `python -m venv my_sandbox_env`
 
 If you got no errors, you now have a python environment set up on your local machine. If bash does not recognize "python3" your python installation did not work. Try rebooting your terminal before debugging.
 

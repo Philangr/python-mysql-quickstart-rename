@@ -26,7 +26,7 @@ Download and install MySQL Server from [dev.mysql.com](https://dev.mysql.com).
 - Make sure to pick the most current community version. DO NOT PICK ENTERPRISE!
 - Run mySQL to begin hosting a database on your local machine.
 
-### 2. Install python3 (the application)
+### 2. Install python (the application)
 
 https://www.python.org/downloads/
 
@@ -40,7 +40,7 @@ Any version above 3.9 will do.
 
 Open your bash terminal, and navigate to this repo's home directory. Run this command `python -m venv my_sandbox_env`
 
-If you got no errors, you now have a python environment set up on your local machine. If bash does not recognize "python3" your python installation did not work. Try rebooting your terminal before debugging.
+If you got no errors, you now have a python environment set up on your local machine. If bash does not recognize "python" your python installation did not work. Try rebooting your terminal before debugging.
 
 ### 5. Install python dependencies
 
@@ -52,7 +52,7 @@ This will install all pre-requisite python packages that are defined in your app
 
 ### 6. Run the python script
 
-`python3 main.py` 
+`python main.py` 
 
 If you did it right, it will say that the password is wrong.
 
@@ -62,7 +62,7 @@ Go to db.py and slot in your password. DO NOT COMMIT THIS FILE TO GIT!!! You do 
 
 ### 8. Run the python script again
 
-`python3 main.py` 
+`python main.py` 
 
 If you did it right, it will now say that it can't find the "things" database, because we haven't created it yet.
 
@@ -88,7 +88,7 @@ Now you have a database!
 
 ### 12. Run the python script again
 
-`python3 main.py` 
+`python main.py` 
 
 It should tell you that the connection was successful, but that it couldn't find the `things.thing` table. You guessed it, it doesn't exist yet.
 

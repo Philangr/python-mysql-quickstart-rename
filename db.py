@@ -7,7 +7,7 @@ def create_connection():
         db_connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="password here",
+            password="",
             database="things"
         )
         return db_connection
@@ -23,7 +23,7 @@ def create_connection():
 # TODO: Should we have a separate method for executing queries and queries that return results?
 def execute_query(db_connection, query):
     if db_connection:
-      mycursor = db_connection.cursor()
+      mycursor = db_connection.cursor(buffered=True)
       try:
           # do the thing that the query says
           mycursor.execute(query)
